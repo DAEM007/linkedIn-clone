@@ -1,0 +1,63 @@
+.sidebar {
+  position: sticky;
+  top: 80px;
+  flex: 0.2;
+  text-align: center;
+}
+
+.sidebar__top,
+.sidebar__bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 0.5px solid #dfdeda;
+  background: #fff;
+}
+
+.sidebar__author,
+.sidebar__stats {
+  width: 100%;
+}
+
+.sidebar__author {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 0.2px solid #dfdeda;
+}
+
+.sidebar__avatar {
+  margin-inline: auto;
+}
+
+.sidebar__stats {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar__stat {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 1rem;
+}
+
+.sidebar__bottom .sidebar__recent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar__recent p {
+  text-align: left;
+  padding-left: 1rem;
+}
+
+.sidebar__recent .sidebar__recent__highlights {
+  display: flex;
+  flex-direction: column;
+  padding-inline: 1rem;
+}
+
+.recent__highlight {
+  display: flex;
+  justify-content: space-between;
+}
