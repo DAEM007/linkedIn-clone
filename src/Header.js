@@ -12,7 +12,7 @@ function Header() {
         <img src={LinkedInLogo} alt="" />
         <div className="header__search">
           <SearchIcon />
-          <input type="text" />
+          <input type="text" placeholder="Search" />
         </div>
       </div>
 
