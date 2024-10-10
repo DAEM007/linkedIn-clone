@@ -47,4 +47,62 @@
 .post__container {
   width: 100%;
   background: #fff;
+  border-radius: 0.8rem;
+}
+
+.post__container .author__container {
+  display: flex;
+  gap: 0.5rem;
+  padding: 12px 72px 0 16px;
+  margin-bottom: 8px;
+}
+
+.author__container .author__image {
+  width: 48px;
+  height: 48px;
+}
+
+.author__container .author__image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.author__details__container {
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
+
+.author__details__container .author__name,
+.author__details__container .author__about {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.author__details__container .author__name {
+  font-size: 14px;
+  color: #000000e6;
+}
+
+.author__details__container .author__about {
+  color: #00000099;
+}
+
+.description__wrapper {
+  padding-inline: 1rem;
+}
+
+.description__wrapper .border__margin {
+  border-bottom: 1px solid #8c8c8c33;
+  padding-bottom: 0.5rem;
+}
+
+.post__reactions {
+  display: flex;
+  justify-content: space-around;
+  padding-inline: 1rem;
 }

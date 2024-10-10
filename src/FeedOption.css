@@ -4,5 +4,17 @@
   gap: 0.5rem;
   padding-inline: 0.5rem;
   padding-block: 14px;
+  margin: 0.5rem;
   font-size: 14px;
+  transition: 0.3s all ease;
+}
+
+.share__box:hover {
+  background: #8c8c8c33;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.share__box .send__icon {
+  transform: rotate(-45deg);
 }
