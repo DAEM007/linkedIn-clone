@@ -1,0 +1,50 @@
+.feeds__container {
+  flex: 0.6;
+  width: 555px;
+}
+
+.feed__entry {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 0.8rem;
+  margin-bottom: 2rem;
+}
+
+.top__container {
+  display: flex;
+  gap: 1rem;
+  margin: 8px 16px 0;
+}
+
+.top__container .author__writing__container {
+  width: 48px;
+  height: 48px;
+}
+
+.author__writing__container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.top__container input {
+  flex-grow: 1;
+  outline: none;
+  border: 1px solid #0000004d;
+  border-radius: 35px;
+  padding: 10px 8px 10px 16px;
+  margin-block: 4px;
+}
+
+.bottom__container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.post__container {
+  width: 100%;
+  background: #fff;
+}

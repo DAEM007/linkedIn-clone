@@ -5,7 +5,7 @@ function HeaderOption({ Icon, title, avatar }) {
   return (
     <div className="headerOption">
       {avatar && <img className="headerOption__avatar" src={avatar} alt="" />}
-      {Icon && Icon && <Icon className="headerOption__icon" />}
+      {Icon && <Icon className="headerOption__icon" />}
       <h3 className="headerOption__title">{title}</h3>
     </div>
   );

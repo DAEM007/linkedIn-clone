@@ -1,4 +1,5 @@
 .sidebar {
+  width: 225px; /* TODO: Remove if unnecessary */
   position: sticky;
   top: 80px;
   flex: 0.2;
@@ -7,7 +8,6 @@
 
 .sidebar__top,
 .sidebar__bottom {
-  width: 225px; /* TODO: Remove if unnecessary */
   display: flex;
   flex-direction: column;
   align-items: center;

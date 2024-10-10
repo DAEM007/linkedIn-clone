@@ -2,8 +2,8 @@ import React from "react";
 import "./Header.css";
 import SearchIcon from "@mui/icons-material/Search";
 import LinkedInLogo from "../src/assets/images/linkedIn-logo.webp";
-import HeaderOption from "./HeaderOption";
 import { optionsData } from "./HeaderOptionData";
+import HeaderOption from "./HeaderOption";
 
 function Header() {
   return (
