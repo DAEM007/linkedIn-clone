@@ -44,6 +44,6 @@ export const reactionOptions = [
     icon: SendIcon,
     title: "Send",
     color: "#000000bf",
-    classLabel: "send-icon",
+    sendClass: "send-icon",
   },
 ];
