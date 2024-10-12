@@ -1,5 +1,5 @@
 .sidebar {
-  width: 225px; /* TODO: Remove if unnecessary */
+  max-width: 225px;
   position: sticky;
   top: 80px;
   flex: 0.2;

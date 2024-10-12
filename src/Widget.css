@@ -1,0 +1,46 @@
+.widget__container {
+  max-width: 300px;
+  flex: 0.3;
+}
+
+.widget__container__top {
+  /* width: 100%; */
+  background: #fff;
+  padding: 12px;
+  border-radius: 0.8rem;
+}
+
+.widget__container__top h2 {
+  font-size: 1rem;
+}
+
+.widget__container__top .top__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.widget__container__top .feed__list {
+  color: #000000e6;
+}
+
+.author__image__container {
+  width: 48px;
+  height: 48px;
+}
+
+.feed__author__container {
+  display: flex;
+  gap: 12px;
+  margin-block: 12px;
+}
+
+.feed__author__container .author__details__container {
+  display: flex;
+}
+
+.author__image__container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}

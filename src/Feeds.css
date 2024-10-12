@@ -1,6 +1,6 @@
 .feeds__container {
   flex: 0.6;
-  width: 555px;
+  max-width: auto;
 }
 
 .feed__entry {
