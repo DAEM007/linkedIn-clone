@@ -11,14 +11,14 @@
 }
 
 .headerOption__avatar {
+  width: 25px !important;
+  height: 25px !important;
   object-fit: cover;
   border-radius: 50%;
 }
 
-.headerOption__icon,
-.headerOption__avatar {
-  width: 25px !important;
-  height: 25px !important;
+.headerOption__icon {
+  font-size: 12px;
 }
 
 .headerOption__title {

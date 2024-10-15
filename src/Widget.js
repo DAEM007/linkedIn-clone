@@ -17,6 +17,7 @@ function Widget() {
         <div className="feed__list">
           {widgetFeedProps.map((prop, index) => (
             <WidgetFeedComponent
+              key={index}
               authorAvatar={prop.authorAvatar}
               authorName={prop.authorName}
               authorAbout={prop.authorAbout}
