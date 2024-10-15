@@ -1,8 +1,8 @@
 import React from "react";
 import "./Widget.css";
 import InfoIcon from "@mui/icons-material/Info";
-import AddIcon from "@mui/icons-material/Add";
-import mathNerd from "../src/assets/images/math-nerd.jpg";
+import WidgetFeedComponent from "./WidgetFeedComponent";
+import { widgetFeedProps } from "./WidgetData";
 
 function Widget() {
   return (
@@ -15,21 +15,13 @@ function Widget() {
           </span>
         </div>
         <div className="feed__list">
-          <div className="feed__author__container">
-            <div className="author__image__container">
-              <img src={mathNerd} alt="" />
-            </div>
-            <div>
-              <span>author name</span>
-              <p>author about</p>
-              <div className="author__details__container">
-                <button>
-                  <AddIcon />
-                  <span>follow</span>
-                </button>
-              </div>
-            </div>
-          </div>
+          {widgetFeedProps.map((prop, index) => (
+            <WidgetFeedComponent
+              authorAvatar={prop.authorAvatar}
+              authorName={prop.authorName}
+              authorAbout={prop.authorAbout}
+            />
+          ))}
         </div>
       </div>
     </div>
