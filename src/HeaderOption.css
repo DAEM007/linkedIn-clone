@@ -25,3 +25,13 @@
   font-size: 12px;
   font-weight: 400;
 }
+
+@media (max-width: 768px) {
+  .headerOption.me {
+    display: none;
+  }
+
+  .headerOption__title {
+    display: none;
+  }
+}

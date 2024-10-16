@@ -1,5 +1,5 @@
 .sidebar {
-  max-width: 225px;
+  /* max-width: 225px; */
   position: sticky;
   top: 80px;
   flex: 0.2;
@@ -33,15 +33,12 @@
 }
 
 .sidebar__author img {
-  border-top-left-radius: 7px;
-  border-top-right-radius: 7px;
-}
-
-.sidebar__author img {
   width: 100%;
   height: 60px;
   object-fit: cover;
   margin-bottom: -20px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
 }
 
 .sidebar__author .author__bio {
@@ -140,4 +137,16 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    position: static;
+  }
+}
+
+@media (min-width: 768px) {
+  .sidebar {
+    max-width: 225px;
+  }
 }

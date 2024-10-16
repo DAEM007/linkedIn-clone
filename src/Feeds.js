@@ -58,6 +58,7 @@ function Feeds() {
               Icon={option.icon}
               title={option.title}
               color={option.color}
+              classLabel={option.classLabel}
               sendClass={option.sendClass}
             />
           ))}

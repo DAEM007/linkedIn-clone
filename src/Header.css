@@ -16,6 +16,7 @@
 }
 
 .header__left {
+  flex: 0.4;
   display: flex;
   align-items: center;
 }
@@ -28,10 +29,10 @@
 }
 
 .header__left .header__search {
+  width: 60%;
   display: flex;
   align-items: center;
-  padding: 10px;
-  padding-right: 100px;
+  padding: 12px;
   border-radius: 5px;
   height: 15px;
   background: #edf3f8;
@@ -45,8 +46,15 @@
 }
 
 .header__right {
+  flex: 0.6;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .header__search input {
+    display: none;
+  }
 }

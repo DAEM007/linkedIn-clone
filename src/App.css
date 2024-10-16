@@ -7,9 +7,23 @@
 
 .app .app__body {
   max-width: 1128px;
+  margin-inline: auto;
   display: flex;
   justify-content: center;
   gap: 2rem;
   margin-top: 24px;
   height: 100vh;
+}
+
+@media (max-width: 576px) {
+  .app .app__body {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .app .app__body {
+    flex-direction: column;
+    margin-inline: 2.4rem;
+  }
 }

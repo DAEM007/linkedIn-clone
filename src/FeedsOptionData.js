@@ -29,21 +29,25 @@ export const reactionOptions = [
     icon: ThumbUpOffAltIcon,
     title: "Like",
     color: "#000000bf",
+    classLabel: true,
   },
   {
     icon: CommentIcon,
     title: "Comment",
     color: "#000000bf",
+    classLabel: true,
   },
   {
     icon: RepeatIcon,
     title: "Repost",
     color: "#000000bf",
+    classLabel: true,
   },
   {
     icon: SendIcon,
     title: "Send",
     color: "#000000bf",
-    sendClass: "send-icon",
+    classLabel: true,
+    sendClass: true,
   },
 ];

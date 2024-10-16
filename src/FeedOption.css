@@ -18,3 +18,9 @@
 .share__box .send__icon {
   transform: rotate(-45deg);
 }
+
+@media (max-width: 768px) {
+  .share__box .reaction__text {
+    display: none;
+  }
+}

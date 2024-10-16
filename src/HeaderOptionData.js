@@ -29,5 +29,6 @@ export const optionsData = [
   {
     avatar: Avatar,
     title: "Me",
+    classLabel: true,
   },
 ];

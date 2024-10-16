@@ -24,6 +24,7 @@ function Header() {
               Icon={option.icon}
               avatar={option.avatar}
               title={option.title}
+              classLabel={option.classLabel}
             />
           ))}
         </div>
