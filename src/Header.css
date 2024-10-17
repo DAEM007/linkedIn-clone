@@ -12,7 +12,6 @@
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #e8e8e8;
-  padding-block: 10px;
 }
 
 .header__left {
