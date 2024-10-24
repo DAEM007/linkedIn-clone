@@ -1,4 +1,3 @@
-import React from "react";
 import "./Feeds.css";
 import authorImage from "../src/assets/images/author.jpg";
 import { feedOptions, reactionOptions } from "./FeedsOptionData";
