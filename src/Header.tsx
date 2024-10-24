@@ -1,4 +1,3 @@
-import React from "react";
 import "./Header.css";
 import SearchIcon from "@mui/icons-material/Search";
 import LinkedInLogo from "../src/assets/images/linkedIn-logo.webp";

@@ -4,8 +4,17 @@ import WorkIcon from "@mui/icons-material/Work";
 import SmsIcon from "@mui/icons-material/Sms";
 import NotificationsIcon from "@mui/icons-material/Notifications";
 import Avatar from "../src/assets/images/avatar.JPG";
+import { OverridableComponent } from "@mui/material/OverridableComponent";
+import { SvgIconTypeMap } from "@mui/material";
 
-export const optionsData = [
+interface OptionDataProps {
+  icon?: OverridableComponent<SvgIconTypeMap<{}, "svg">>;
+  title: string;
+  avatar?: string;
+  classLabel?: boolean;
+}
+
+export const optionsData: OptionDataProps[] = [
   {
     icon: HomeIcon,
     title: "Home",
