@@ -2,7 +2,13 @@ import mathNerd from "../src/assets/images/math-nerd.jpg";
 import contentCreator from "../src/assets/images/content-creator.jpg";
 import photographer from "../src/assets/images/photographer.jpg";
 
-export const widgetFeedProps = [
+interface WidgetFeedProps {
+  authorAvatar?: string;
+  authorName: string;
+  authorAbout: string;
+}
+
+export const widgetFeedProps: WidgetFeedProps[] = [
   {
     authorAvatar: mathNerd,
     authorName: "Victor Lathoshi",

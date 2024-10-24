@@ -5,46 +5,59 @@ import ThumbUpOffAltIcon from "@mui/icons-material/ThumbUpOffAlt";
 import CommentIcon from "@mui/icons-material/Comment";
 import RepeatIcon from "@mui/icons-material/Repeat";
 import SendIcon from "@mui/icons-material/Send";
+import { OverridableComponent } from "@mui/material/OverridableComponent";
+import { SvgIconTypeMap } from "@mui/material";
 
-export const feedOptions = [
+interface FeedOptionProps {
+  Icon?: OverridableComponent<SvgIconTypeMap<{}, "svg">>;
+  title: string;
+  color: string;
+}
+
+interface ReactionOptionProps extends FeedOptionProps {
+  classLabel?: boolean;
+  sendClass?: boolean;
+}
+
+export const feedOptions: FeedOptionProps[] = [
   {
-    icon: ImageIcon,
+    Icon: ImageIcon,
     title: "Media",
     color: "#378fe9",
   },
   {
-    icon: CalendarMonthIcon,
+    Icon: CalendarMonthIcon,
     title: "Event",
     color: "#c37d16",
   },
   {
-    icon: ArticleIcon,
+    Icon: ArticleIcon,
     title: "Write article",
     color: "#e06847",
   },
 ];
 
-export const reactionOptions = [
+export const reactionOptions: ReactionOptionProps[] = [
   {
-    icon: ThumbUpOffAltIcon,
+    Icon: ThumbUpOffAltIcon,
     title: "Like",
     color: "#000000bf",
     classLabel: true,
   },
   {
-    icon: CommentIcon,
+    Icon: CommentIcon,
     title: "Comment",
     color: "#000000bf",
     classLabel: true,
   },
   {
-    icon: RepeatIcon,
+    Icon: RepeatIcon,
     title: "Repost",
     color: "#000000bf",
     classLabel: true,
   },
   {
-    icon: SendIcon,
+    Icon: SendIcon,
     title: "Send",
     color: "#000000bf",
     classLabel: true,

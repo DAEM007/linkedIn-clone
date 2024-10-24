@@ -1,4 +1,3 @@
-import React from "react";
 import "./Feeds.css";
 import authorImage from "../src/assets/images/author.jpg";
 import { feedOptions, reactionOptions } from "./FeedsOptionData";
@@ -20,7 +19,7 @@ function Feeds() {
             <FeedOption
               key={index}
               color={option.color}
-              Icon={option.icon}
+              Icon={option.Icon}
               title={option.title}
             />
           ))}
@@ -55,7 +54,7 @@ function Feeds() {
           {reactionOptions.map((option, index) => (
             <FeedOption
               key={index}
-              Icon={option.icon}
+              Icon={option.Icon}
               title={option.title}
               color={option.color}
               classLabel={option.classLabel}
