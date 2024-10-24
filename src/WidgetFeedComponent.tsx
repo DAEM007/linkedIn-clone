@@ -1,7 +1,17 @@
 import React from "react";
 import AddIcon from "@mui/icons-material/Add";
 
-function WidgetFeedComponent({ authorAvatar, authorName, authorAbout }) {
+interface WidgetFeedProps {
+  authorAvatar?: string;
+  authorName: string;
+  authorAbout: string;
+}
+
+function WidgetFeedComponent({
+  authorAvatar,
+  authorName,
+  authorAbout,
+}: WidgetFeedProps) {
   return (
     <div className="feed__author__container">
       <div className="author__image__container">

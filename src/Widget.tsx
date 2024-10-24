@@ -1,4 +1,3 @@
-import React from "react";
 import "./Widget.css";
 import InfoIcon from "@mui/icons-material/Info";
 import WidgetFeedComponent from "./WidgetFeedComponent";
