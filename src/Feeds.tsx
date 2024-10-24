@@ -20,7 +20,7 @@ function Feeds() {
             <FeedOption
               key={index}
               color={option.color}
-              Icon={option.icon}
+              Icon={option.Icon}
               title={option.title}
             />
           ))}
@@ -55,7 +55,7 @@ function Feeds() {
           {reactionOptions.map((option, index) => (
             <FeedOption
               key={index}
-              Icon={option.icon}
+              Icon={option.Icon}
               title={option.title}
               color={option.color}
               classLabel={option.classLabel}
